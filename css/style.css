@@ -137,3 +137,14 @@ button:hover {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+@media (max-width: 600px) {
+    .produto {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .produto-imagem,
+    .produto-info {
+        width: 100%;
+    }
+}
